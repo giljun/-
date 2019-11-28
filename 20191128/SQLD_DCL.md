@@ -42,6 +42,19 @@
 
 ### OBJECT에 대한 권한 부여
 
+- 오브젝트 권한은 특정 오브젝트인 테이블, 뷰 등에 대한 SELECT, INSERT, DELETE, UPDATE 작업 명령어를 의미한다.
+
+
+
+## ROLE을 이용한 권한 부여
+
+- 유저를 생성하려면 기본적으로 CREATE SESSION, CREATE TABLE, CREATE PROCEDURE 등 많은 권한을 부여해야한다.
+- 데이터베이스 관리자는 ROLE을 생성하고, ROLE을 다른 유저에게 부여할 수 있다.
+- 빠르고 정확하게 필요한 권한을 부여할 수 있게 된다.
+- 일반적으로 유저를 생성할 때 CONNECT와 RESOURCE를 사용하여 기본 권한을 부여한다.
+
+
+
 
 
 
